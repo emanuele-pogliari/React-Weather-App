@@ -1,5 +1,6 @@
 import { fetchCities } from "../functions";
 import { useState } from "react";
+import "../css/Searchbar.css";
 import PropTypes from "prop-types";
 
 function Searchbar({ citySelected }) {
